@@ -1,0 +1,19 @@
+Script started on Mon 28 Nov 2022 11:21:27 PM HST
+]0;callejo8@uhx02:~/project2[?1034huhx02:/home/c/callejo8/project2% ./release[K[K[K[K[K[K[K[K[Kmake -f release.mak
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+Generating llist.o
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+Generating user_interface.o
+g++ -o project llist.o user_interface.o
+Creating exacutable..
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% make -f re[K[Krelease.mak
+make: `project' is up to date.
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% make -f debug.mak
+g++ -o project_debug llist.o user_interface.o
+Linking debugF...
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% make -f debug.mak
+make: `project_debug' is up to date.
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% exit
+exit
+
+Script done on Mon 28 Nov 2022 11:22:00 PM HST

@@ -1,0 +1,90 @@
+Script started on Mon 28 Nov 2022 11:27:01 PM HST
+]0;callejo8@uhx02:~/project2[?1034huhx02:/home/c/callejo8/project2% ./project
+
+Welcome to the bank records. All data that is entered is safely kept within the database.
+
+----------------------------------
+Please type the menu option to select it.
+
+add - Add a new record into the database
+printall - Print all the records in the database
+find - Finds records with a specified account number
+delete - Delete existing records from the database using the account number
+quit - Exit the database
+
+Please type in your option: a
+Enter in your account number: 
+100
+Please enter in your name: john
+Please enter in your address.
+Type '+' when you are finished.
+somewhere+
+Record has been added.
+
+Please type in your option: p
+
+-------------------------
+Record account number:  100
+Name: john
+Address: somewhere
+-------------------------
+Please type in your option: f
+
+Enter in your account number: 
+100
+-------------------------
+Record account number:  100
+Name: john
+Address: somewhere
+-------------------------
+Please type in your option: q d
+
+Enter in your account number: 
+100
+Record Found! Deleting record #100
+
+Please type in your option: q
+
+There are no records to cleanup.
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% ./project_debug
+
+Welcome to the bank records. All data that is entered is safely kept within the database.
+
+----------------------------------
+Please type the menu option to select it.
+
+add - Add a new record into the database
+printall - Print all the records in the database
+find - Finds records with a specified account number
+delete - Delete existing records from the database using the account number
+quit - Exit the database
+
+Please type in your option: a
+Enter in your account number: 
+200
+Please enter in your name: Someone
+Please enter in your address.
+Type '+' when you are finished.
+Somewhere+
+Record has been added.
+
+Please type in your option: p
+
+-------------------------
+Record account number:  200
+Name: Someone
+Address: Somewhere
+-------------------------
+Please type in your option: d
+
+Enter in your account number: 
+200
+Record Found! Deleting record #200
+
+Please type in your option: q
+
+There are no records to cleanup.
+]0;callejo8@uhx02:~/project2uhx02:/home/c/callejo8/project2% exit
+exit
+
+Script done on Mon 28 Nov 2022 11:27:59 PM HST
